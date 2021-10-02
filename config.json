@@ -1,0 +1,22 @@
+{
+	"network": {
+		"addresses": [
+			{
+				"interface": "Ethernet0",
+				"address": "10.10.0.250",
+				"netmask": "255.255.255.0",
+				"gateway": "10.10.0.1"
+			},
+			{
+				"interface": "Ethernet1",
+				"dhcp": true
+			}
+		]
+	},
+	"users": [
+		{
+			"username": "Administrator",
+			"password": "MyComplexPa$$w00rd"
+		}
+	]
+}
